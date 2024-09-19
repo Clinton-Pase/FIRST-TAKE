@@ -1,0 +1,853 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body,
+html {
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.first {
+    min-height: 43rem;
+    background: url(/images/Image2.png), linear-gradient(to right, #7f44ff, #9966cc);
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+nav ul {
+    width: 34%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.1rem;
+    margin-left: 28em;
+}
+
+nav ul li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav ul li:nth-child(1) {
+    color: rgb(100, 100, 100);
+}
+
+.begin {
+    display: block;
+    text-align: center;
+    margin-top: 9rem;
+
+}
+
+.begin h6 {
+    color: aliceblue;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: -3rem;
+}
+
+.begin h2 {
+    font-size: 4.3rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    color: aliceblue;
+}
+
+.begin p {
+    color: #ffff;
+    font-size: 1.3rem;
+}
+
+#forward {
+    position: absolute;
+    top: 15.5em;
+    right: 10rem;
+
+}
+
+#backward {
+    position: absolute;
+    top: 15.5em;
+    left: 10rem;
+    rotate: 180deg;
+
+}
+
+.dot {
+    display: flex;
+    justify-content: center;
+
+}
+
+.dot i {
+    padding: 0.3rem;
+    margin-top: 2.9rem;
+    font-size: 10px;
+}
+
+.first button {
+    margin-left: 45em;
+    margin-top: 4em;
+    padding: 14px 24px;
+    border: 1px;
+    border-radius: 20px;
+    color: white;
+    background: #390cb3ee;
+}
+
+.second {
+    min-height: 32rem;
+    background: url(/images/ssseeer.png), linear-gradient(to right, #7f44ff, #4f2f70);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.second {
+    display: block;
+    text-align: center;
+    padding: 3rem 1.5rem;
+}
+
+.second h5 {
+    color: #fff;
+    margin-top: 3.5rem;
+
+}
+
+
+.second h2 {
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.second p {
+    margin-top: 3rem;
+    color: #fff;
+}
+
+.third {
+    min-height: 95vh;
+    background: url(/images/Rectangle2.png), linear-gradient(to right, #7f44ff, #4f2f70);
+}
+
+.third img {
+    max-height: 22rem;
+    margin-top: 7em;
+}
+
+.create {
+    display: block;
+    margin-left: 24rem;
+    color: #fff;
+    margin-top: -22rem;
+}
+
+.create h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+
+.feats {
+    margin-top: 2.3em;
+    display: inline-flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 0.9rem;
+}
+
+.feat1 .fa-regular {
+    font-size: 1.8rem;
+}
+
+.feat1 h6 {
+    margin-top: 1rem;
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+.feat1 p {
+    margin-top: 1rem;
+}
+
+
+.feat2 .fa-regular {
+    font-size: 1.8rem;
+}
+
+.feat2 h6 {
+    margin-top: 1rem;
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+.feat2 p {
+    margin-top: 1rem;
+}
+
+
+
+.fourth {
+    min-height: 120vh;
+    background: url(/images/errorke.png), linear-gradient(#7f44ff, #4f2f70);
+
+}
+
+.fourth .kinni {
+    display: flex;
+    justify-content: center;
+    gap: 11rem;
+    padding: 6.5rem 4rem;
+}
+
+.twin1 {
+    margin-top: 5rem;
+}
+
+.twin1 h3 {
+    font-size: 2.8rem;
+    padding: 5px;
+    color: #fff;
+    font-weight: 500;
+
+}
+
+
+.twin1 p {
+    text-align: left;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.twin2 img {
+    min-height: 50%;
+}
+
+.fifth {
+    margin-top: -20px;
+    min-height: 100vh;
+    background-color: rgb(31, 0, 135);
+}
+
+.fifth h2 {
+    padding: 4.5rem 4rem;
+    color: #ffff;
+    text-align: left;
+    margin-left: 7rem;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.grid-box {
+    margin-top: -3.5rem;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    flex-wrap: wrap;
+    padding: 15px;
+    row-gap: 3rem;
+    column-gap: 18.5rem;
+
+    margin-left: 10rem;
+}
+
+.grid-box p {
+    font-size: 0.8rem;
+    color: #ffff;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 130px;
+}
+
+.grid-box .box1 {
+    border: 0.8px solid rgb(136, 136, 136);
+    width: 410%;
+    display: block;
+    padding: 2.5rem 5%;
+    border-radius: 6px;
+
+}
+
+.grid-box .box1 .aa img {
+    margin-top: -15px;
+    margin-left: 9px;
+    width: 18%;
+}
+
+
+.grid-box .box1 .bb {
+    margin-left: -45px;
+}
+
+.grid-box .box1 .bb h6 {
+    color: #a9a9a9;
+    position: absolute;
+    margin-left: 8.2rem;
+    margin-top: 1.8rem;
+    font-weight: 300;
+}
+
+.grid-box .box1 .bb p {
+    font-size: 0.8rem;
+    margin-top: -4.5rem;
+}
+
+
+
+
+.grid-box .box2 {
+    border: 0.8px solid rgb(136, 136, 136);
+    width: 410%;
+    display: block;
+    padding: 2.8rem 5%;
+    border-radius: 6px;
+
+}
+
+.grid-box .box2 .aa img {
+    margin-top: -15px;
+    margin-left: 9px;
+    width: 18%;
+}
+
+.grid-box .box2 .bb {
+    margin-left: -45px;
+}
+
+.grid-box .box2 .bb h6 {
+    color: #a9a9a9;
+    position: absolute;
+    margin-left: 8.2rem;
+    margin-top: 1.3rem;
+    font-weight: 300;
+}
+
+.grid-box .box2 .bb p {
+    font-size: 0.8rem;
+    margin-top: -4.6rem;
+}
+
+
+
+.grid-box .box3 {
+    border: 0.8px solid rgb(136, 136, 136);
+    width: 410%;
+    display: block;
+    padding: 2.8rem 5%;
+    border-radius: 6px;
+
+}
+
+.grid-box .box3 .aa img {
+    margin-top: -15px;
+    margin-left: 9px;
+    width: 18%;
+}
+
+.grid-box .box3 .bb {
+    margin-left: -45px;
+}
+
+.grid-box .box3 .bb h6 {
+    color: #a9a9a9;
+    position: absolute;
+    margin-left: 8.2rem;
+    margin-top: 1.5rem;
+    font-weight: 300;
+}
+
+.grid-box .box3 .bb p {
+    font-size: 0.8rem;
+    margin-top: -4rem;
+}
+
+
+
+.grid-box .box4 {
+    border: 0.8px solid rgb(136, 136, 136);
+    width: 410%;
+    display: block;
+    padding: 2.8rem 5%;
+    border-radius: 6px;
+
+}
+
+.grid-box .box4 .aa img {
+    margin-top: -15px;
+    margin-left: 9px;
+    width: 18%;
+}
+
+.grid-box .box4 .bb {
+    margin-left: -45px;
+}
+
+.grid-box .box4 .bb h6 {
+    color: #a9a9a9;
+    position: absolute;
+    margin-left: 8.2rem;
+    margin-top: 1.5rem;
+    font-weight: 300;
+}
+
+.grid-box .box4 .bb p {
+    font-size: 0.8rem;
+    margin-top: -4rem;
+}
+
+
+
+
+.sixth {
+    min-height: 37rem;
+    background: url(/images/sixth.png), linear-gradient(#7f44ff, #4f2f70);
+}
+
+.sixth .call {
+    padding: 4.5rem 6rem;
+    text-align: center;
+}
+
+.sixth .call h3 {
+    color: #ffff;
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+
+.sixth .call p {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-top: 0.9rem;
+}
+
+.sixth .cta {
+    display: flex;
+    justify-content: center;
+    gap: 0.9rem;
+    margin-bottom: 30px;
+}
+
+.seventh {
+    padding: 4.5rem 5rem;
+    min-height: 120vh;
+    background-color: rgb(31, 0, 135);
+}
+
+.seventh .works {
+    display: flex;
+    justify-content: center;
+    gap: 40rem;
+}
+
+.seventh .works h5 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.seventh h6 {
+    font-weight: 400;
+}
+
+.seventh .works button {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 0.9rem 24px;
+    border-radius: 24px;
+    color: #ffff;
+}
+
+.work-place {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    row-gap: 3rem;
+    column-gap: 0.5rem;
+    margin-left: 120px;
+    margin-top: 2rem;
+}
+
+.work-place h6 {
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.work-place p {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 0.8rem;
+    margin-bottom: 0.6rem;
+    font-size: 0.5rem;
+}
+
+.work-place img {
+    width: 95%;
+}
+
+.eight {
+    min-height: 120vh;
+    background-color: rgb(31, 0, 135);
+    padding: 1.5rem;
+}
+
+.eight h3 {
+    color: #fff;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+.eight .intro p {
+    color: #fff;
+
+}
+
+.eight h6 {
+    font-weight: 300;
+    margin-top: 0.7rem;
+}
+
+.eight .media {
+    display: flex;
+    justify-content: start;
+    column-gap: 0.5rem;
+    margin-top: 0.9rem;
+}
+
+.eight .intro {
+    margin-left: 9rem;
+}
+
+.eight .crew {
+    margin-left: 9rem;
+    margin-top: 4rem;
+    color: #fff;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 5rem;
+    row-gap: 3rem;
+}
+
+.ninth {
+    min-height: 120vh;
+    background: url(/images/fads.png), linear-gradient(#7f44ff, #4f2f70);
+    ;
+    padding: 2.5rem 4rem;
+
+
+}
+
+.ninth .begin {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1.5rem 4rem;
+    margin-top: 1.9rem;
+
+}
+
+.begin h3 {
+    font-size: 3rem;
+}
+
+.keep {
+    margin-left: 3.7rem;
+}
+
+.keep h3 {
+    text-align: left;
+    margin-top: 3.1rem;
+    margin-bottom: 2.0rem;
+    font-weight: 600;
+    color: #fff;
+    font-size: 2.7rem;
+}
+
+.keep p {
+    text-align: left;
+    padding: 0.2rem;
+    font-size: 1.2rem;
+}
+
+#num {
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-left: 1.5rem;
+}
+
+.ninth .fa-solid {
+    position: absolute;
+    left: 14rem;
+    margin-top: 2.8rem;
+}
+
+#mail {
+    margin-top: 2.1rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-left: 1.76rem;
+}
+
+.ninth .fa-regular {
+    position: absolute;
+    left: 14rem;
+    margin-top: 2.6rem;
+
+}
+
+#add {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-left: 1.7rem;
+}
+
+.ninth .fa-map {
+    position: absolute;
+    left: 14rem;
+    margin-top: 3.3rem;
+}
+
+.ninth .form img {
+    width: 100%;
+    margin-left: 2.2rem;
+    min-height: 32rem;
+
+}
+
+
+.tenth {
+    margin-top: -1rem;
+    min-height: 140vh;
+    background: url(/images/rrreename.png), linear-gradient(#7f44ff, #4f2f70);
+    ;
+}
+
+.tenth .middle {
+    text-align: center;
+    color: #fff;
+    padding: 1.5rem 5rem;
+
+}
+
+.tenth .middle h3 {
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin-bottom: 1.1em;
+    margin-top: 1.0rem;
+}
+
+.tenth .middle p {
+    font-size: 1.2rem;
+}
+
+.tenth-div {
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    margin-top: 4rem;
+
+}
+
+.tenth-div ul {
+    list-style: none;
+
+}
+
+.tenth-div ul li {
+    font-size: 0.8rem;
+    padding-bottom: 8px;
+}
+
+.tenth-div #grey {
+    color: #c9c9c9;
+}
+
+.a-3-way .fa-solid {
+    position: absolute;
+    margin-left: -25px;
+}
+
+.b-3-way .fa-solid {
+    position: absolute;
+    margin-left: -25px;
+}
+
+.c-3-way .fa-solid {
+    position: absolute;
+    margin-left: -25px;
+}
+
+.tenth-div button {
+    padding: 0.9rem 1.8em;
+    margin-top: 3rem;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+}
+
+.tenth-div .a-3-way {
+    border: 1px solid white;
+    padding: 4.9rem;
+    text-align: left;
+    min-height: 28rem;
+    border-radius: 10px;
+}
+
+
+.tenth-div .b-3-way {
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 4.9rem;
+    text-align: left;
+    min-height: 35rem;
+}
+
+
+.tenth-div .c-3-way {
+    border: 1px solid white;
+    padding: 4.9rem;
+    text-align: left;
+    min-height: 35rem;
+    border-radius: 10px;
+}
+
+.tenth-div .a-3-way h6 {
+    margin-top: -1.5rem;
+    margin-bottom: 2.0rem;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+
+.tenth-div .a-3-way h1 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+.tenth-div .b-3-way h6 {
+    margin-top: -1.5rem;
+    margin-bottom: 2.0rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.tenth-div .b-3-way h1 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-size: 2.1em;
+    font-weight: 500;
+}
+
+
+.tenth-div .c-3-way h6 {
+    margin-top: -1.5rem;
+    margin-bottom: 2.0rem;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.tenth-div .c-3-way h1 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-size: 2.1em;
+    font-weight: 500;
+}
+
+.tenth-div .b-3-way button {
+    padding: 0.9rem 1.8em;
+    margin-top: 3rem;
+    background: rgb(255, 32, 136);
+    border: none;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.tenth-div .b-3-way button:hover {
+    color: #ffff;
+    background: midnightblue;
+}
+
+footer {
+    min-height: 20vh;
+    background-color: midnightblue;
+}
+
+footer .foot {
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+    margin-bottom: -2.5rem;
+    padding: 2.5rem;
+}
+
+footer .inside {
+    margin-left: 39rem;
+}
+
+footer .inside ul li {
+    list-style: none;
+    display: inline-flex;
+    margin: 2px 12px;
+    font-size: 0.8rem;
+    cursor: pointer;
+
+}
+
+
+footer .inside ul li:hover {
+    color: rgb(250, 27, 120);
+}
+
+
+.foot h4 {
+    margin-left: 6rem;
+    font-size: 1.5rem;
+}
+
+footer hr {
+    margin-top: 2rem;
+    margin: 2.5rem 8rem;
+}
+
+.below {
+    margin-left: 8rem;
+    margin-top: -1.7rem;
+}
+
+.below ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    margin: 0.2rem 1%;
+    justify-content: flex-start;
+    cursor: pointer;
+    font-size: 0.7rem;
+    color: #fff;
+}
+
+.below ul li:hover {
+    color: rgb(250, 27, 120);
+}
