@@ -19,7 +19,7 @@ html {
 
 .first {
     min-height: 43rem;
-    background: url(/images/Image2.png), linear-gradient(to right, #7f44ff, #9966cc);
+    background: url(./images/Image2.png), linear-gradient(to right, #7f44ff, #9966cc);
     background-position: center;
     background-repeat: no-repeat;
 
@@ -110,7 +110,7 @@ nav ul li:nth-child(1) {
 
 .second {
     min-height: 32rem;
-    background: url(/images/ssseeer.png), linear-gradient(to right, #7f44ff, #4f2f70);
+    background: url(./images/ssseeer.png), linear-gradient(to right, #7f44ff, #4f2f70);
     background-position: center;
     background-repeat: no-repeat;
 
@@ -143,7 +143,7 @@ nav ul li:nth-child(1) {
 
 .third {
     min-height: 95vh;
-    background: url(/images/Rectangle2.png), linear-gradient(to right, #7f44ff, #4f2f70);
+    background: url(./images/Rectangle2.png), linear-gradient(to right, #7f44ff, #4f2f70);
 }
 
 .third img {
@@ -206,7 +206,7 @@ nav ul li:nth-child(1) {
 
 .fourth {
     min-height: 120vh;
-    background: url(/images/errorke.png), linear-gradient(#7f44ff, #4f2f70);
+    background: url(./images/errorke.png), linear-gradient(#7f44ff, #4f2f70);
 
 }
 
@@ -416,7 +416,7 @@ nav ul li:nth-child(1) {
 
 .sixth {
     min-height: 37rem;
-    background: url(/images/sixth.png), linear-gradient(#7f44ff, #4f2f70);
+    background: url(./images/sixth.png), linear-gradient(#7f44ff, #4f2f70);
 }
 
 .sixth .call {
@@ -548,7 +548,7 @@ nav ul li:nth-child(1) {
 
 .ninth {
     min-height: 120vh;
-    background: url(/images/fads.png), linear-gradient(#7f44ff, #4f2f70);
+    background: url(./images/fads.png), linear-gradient(#7f44ff, #4f2f70);
     ;
     padding: 2.5rem 4rem;
 
@@ -638,7 +638,7 @@ nav ul li:nth-child(1) {
 .tenth {
     margin-top: -1rem;
     min-height: 140vh;
-    background: url(/images/rrreename.png), linear-gradient(#7f44ff, #4f2f70);
+    background: url(./images/rrreename.png), linear-gradient(#7f44ff, #4f2f70);
     ;
 }
 
