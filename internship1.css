@@ -108,7 +108,7 @@ nav ul li:nth-child(1) {
     background: #390cb3ee;
 }
 
-.second {
+.Content{
     min-height: 32rem;
     background: url(./images/ssseeer.png), linear-gradient(to right, #7f44ff, #4f2f70);
     background-position: center;
@@ -117,20 +117,20 @@ nav ul li:nth-child(1) {
 }
 
 
-.second {
+.Content {
     display: block;
     text-align: center;
     padding: 3rem 1.5rem;
 }
 
-.second h5 {
+.Content h5 {
     color: #fff;
     margin-top: 3.5rem;
 
 }
 
 
-.second h2 {
+.Content h2 {
     margin-top: 2rem;
     color: #fff;
     font-size: 2.5rem;
@@ -141,12 +141,12 @@ nav ul li:nth-child(1) {
     color: #fff;
 }
 
-.third {
+.Features {
     min-height: 95vh;
     background: url(./images/Rectangle2.png), linear-gradient(to right, #7f44ff, #4f2f70);
 }
 
-.third img {
+.Features img {
     max-height: 22rem;
     margin-top: 7em;
 }
@@ -204,13 +204,13 @@ nav ul li:nth-child(1) {
 
 
 
-.fourth {
+.Form {
     min-height: 120vh;
     background: url(./images/errorke.png), linear-gradient(#7f44ff, #4f2f70);
 
 }
 
-.fourth .kinni {
+.Form .kinni {
     display: flex;
     justify-content: center;
     gap: 11rem;
@@ -240,13 +240,13 @@ nav ul li:nth-child(1) {
     min-height: 50%;
 }
 
-.fifth {
+.Testimonial {
     margin-top: -20px;
     min-height: 100vh;
     background-color: rgb(31, 0, 135);
 }
 
-.fifth h2 {
+.Testimonial h2 {
     padding: 4.5rem 4rem;
     color: #ffff;
     text-align: left;
@@ -414,58 +414,58 @@ nav ul li:nth-child(1) {
 
 
 
-.sixth {
+.CTA {
     min-height: 37rem;
     background: url(./images/sixth.png), linear-gradient(#7f44ff, #4f2f70);
 }
 
-.sixth .call {
+.CTA .call {
     padding: 4.5rem 6rem;
     text-align: center;
 }
 
-.sixth .call h3 {
+.CTA .call h3 {
     color: #ffff;
     font-size: 4.5rem;
     font-weight: 400;
 }
 
-.sixth .call p {
+.CTA .call p {
     color: #fff;
     font-size: 1.1rem;
     margin-top: 0.9rem;
 }
 
-.sixth .cta {
+.CTA .cta {
     display: flex;
     justify-content: center;
     gap: 0.9rem;
     margin-bottom: 30px;
 }
 
-.seventh {
+.Show-case{
     padding: 4.5rem 5rem;
     min-height: 120vh;
     background-color: rgb(31, 0, 135);
 }
 
-.seventh .works {
+.Show-case .works {
     display: flex;
     justify-content: center;
     gap: 40rem;
 }
 
-.seventh .works h5 {
+.Show-case .works h5 {
     color: #fff;
     font-size: 2rem;
     font-weight: 400;
 }
 
-.seventh h6 {
+.Show-case h6 {
     font-weight: 400;
 }
 
-.seventh .works button {
+.Show-case .works button {
     background: transparent;
     border: 1px solid #fff;
     padding: 0.9rem 24px;
@@ -501,13 +501,13 @@ nav ul li:nth-child(1) {
     width: 95%;
 }
 
-.eight {
+.Team {
     min-height: 120vh;
     background-color: rgb(31, 0, 135);
     padding: 1.5rem;
 }
 
-.eight h3 {
+.Team h3 {
     color: #fff;
     margin-bottom: 2rem;
     font-size: 1.5rem;
@@ -515,12 +515,12 @@ nav ul li:nth-child(1) {
 
 }
 
-.eight .intro p {
+.Team .intro p {
     color: #fff;
 
 }
 
-.eight h6 {
+.Team h6 {
     font-weight: 300;
     margin-top: 0.7rem;
 }
@@ -536,7 +536,7 @@ nav ul li:nth-child(1) {
     margin-left: 9rem;
 }
 
-.eight .crew {
+.Team .crew {
     margin-left: 9rem;
     margin-top: 4rem;
     color: #fff;
@@ -546,7 +546,7 @@ nav ul li:nth-child(1) {
     row-gap: 3rem;
 }
 
-.ninth {
+.Contact {
     min-height: 120vh;
     background: url(./images/fads.png), linear-gradient(#7f44ff, #4f2f70);
     ;
@@ -555,7 +555,7 @@ nav ul li:nth-child(1) {
 
 }
 
-.ninth .begin {
+.Contact .begin {
     display: flex;
     justify-content: center;
     gap: 3rem;
@@ -594,7 +594,7 @@ nav ul li:nth-child(1) {
     margin-left: 1.5rem;
 }
 
-.ninth .fa-solid {
+.Contact .fa-solid {
     position: absolute;
     left: 14rem;
     margin-top: 2.8rem;
@@ -607,7 +607,7 @@ nav ul li:nth-child(1) {
     margin-left: 1.76rem;
 }
 
-.ninth .fa-regular {
+.Contact .fa-regular {
     position: absolute;
     left: 14rem;
     margin-top: 2.6rem;
@@ -621,13 +621,13 @@ nav ul li:nth-child(1) {
     margin-left: 1.7rem;
 }
 
-.ninth .fa-map {
+.Contact .fa-map {
     position: absolute;
     left: 14rem;
     margin-top: 3.3rem;
 }
 
-.ninth .form img {
+.Contact .form img {
     width: 100%;
     margin-left: 2.2rem;
     min-height: 32rem;
@@ -635,28 +635,28 @@ nav ul li:nth-child(1) {
 }
 
 
-.tenth {
+.Price {
     margin-top: -1rem;
     min-height: 140vh;
     background: url(./images/rrreename.png), linear-gradient(#7f44ff, #4f2f70);
     ;
 }
 
-.tenth .middle {
+.Price .middle {
     text-align: center;
     color: #fff;
     padding: 1.5rem 5rem;
 
 }
 
-.tenth .middle h3 {
+.Price .middle h3 {
     font-size: 2.1rem;
     font-weight: 600;
     margin-bottom: 1.1em;
     margin-top: 1.0rem;
 }
 
-.tenth .middle p {
+.Price .middle p {
     font-size: 1.2rem;
 }
 
